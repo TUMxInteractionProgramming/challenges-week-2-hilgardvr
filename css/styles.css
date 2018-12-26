@@ -11,7 +11,7 @@
 /*global styles */
 * {
     /* #2 #font #faces */
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', 'Arial', sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -27,6 +27,17 @@ h1 {
     color: white;
 }
 
+
+/*styles for channel area*/
+li {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    list-style-type: none;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid #F5F5F5;
+}
+
 .tab-bar button {
     /* #2 #font capital #letters */
     text-transform: uppercase;
@@ -38,17 +49,21 @@ h1 {
     width: 33%
 }
 
-.tab-bar button .selected {
-    border-color: #3F51B5;
-    border-bottom: 4px;
+.tab-bar .selected {
+    border-bottom: 4px solid #3f51b5;
+    color: #3f51b5;
 }
 
-
-/*styles for channel area*/
-li {
-    /* #2 #colorful #channelandchat */
-    background-color: white;
+.channelList ul .channelListSelected {
+    border-left: 4px solid #3F51B5;
+    color: #3F51B5;
 }
+
+.channelList {
+    margin: 8px 2.5%;
+    
+}
+
 
 /*styles for chat area*/
 .messages {
@@ -95,6 +110,7 @@ li {
 .messages a {
     color: black;
 }
+
 .messages button {
     /* #2 #colourful #plusfive */
     background-color: #CDDC39;
